@@ -1,0 +1,105 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-size: 14px;
+    line-height: 2;
+    margin: 30px;
+    background-image: url(../img/background_image.png);
+}
+
+hr {
+    margin: 30px auto;
+}
+
+#avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 70px;
+}
+
+.name {
+    font-size: 28px;
+}
+
+.layout_page {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#page{
+    margin-top: 20px;
+    width: 75%;
+    border-radius: 8px;
+    background: #ffffff;
+    padding: 40px 44px 44px;
+    opacity: 0.8;
+}
+
+#aside_content {
+    width: 25%;
+    opacity: 0.8;
+}
+
+#aside_content .card-widget {
+    margin-top: 20px;
+    border-radius: 8px;
+    background: #ffffff;
+    margin-right: 15px;
+}
+
+#aside_content .card-content {
+    padding: 10px 12px;
+}
+
+.skillbar {
+    position: relative;
+    max-width: 360px;
+    margin: 15px 10px;
+    background: #eeeeee;
+    height: 30px;
+    border-radius: 35px;
+}
+
+.skillbar .skillbar-title {
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 35px;
+}
+
+.skillbar .skillbar-title span {
+    display: block;
+    background: rgba(0, 0, 0, 0.15);
+    padding: 0 20px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 35px;
+}
+
+.skillbar .skillbar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    color: #ffffff;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.tool a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.is-center {
+    text-align: center;
+}
+
+#footer {
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
+}
